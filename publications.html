@@ -1,0 +1,883 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <title>Professor Matthew Johnson</title>
+  <meta name="description" content="The homepage of Matthew Johnson, Professor of Computer Science, Durham University" />
+  <meta name="keywords" content="Matthew Johnson, Department of Computer Science, Durham University, Graph Algorithms" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+<!--script below from http://ppsa-online.com/ppsa.js-->
+<script type="text/javascript">
+
+function all_abstracts_show_hide()
+{
+var abstracts = [
+"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
+"41", "42"];
+var abstractsLength = abstracts.length;
+for (var i = 0; i < abstractsLength; i++) {
+abstract_show_hide(abstracts[i]);
+}
+}
+function abstract_show_hide( which )
+{
+	//alert( "'" + document.getElementById('abs_'+which).style.display + "'" );
+	if( document.getElementById('abs_'+which).style.display == '' || 
+			document.getElementById('abs_'+which).style.display == 'none' ) {
+		document.getElementById('abs_'+which).style.display = 'block';
+		document.getElementById('sh_'+which).innerHTML = 'hide abstract';
+	}
+	else {
+		document.getElementById('abs_'+which).style.display = 'none';
+		document.getElementById('sh_'+which).innerHTML = 'abstract';
+	}
+}
+</script>
+<SCRIPT SRC="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </SCRIPT>
+
+</head>
+
+<body>
+
+<NOSCRIPT>
+<DIV STYLE="color:#CC0000; text-align:center">
+<B>Warning: <A HREF="http://www.mathjax.org/">MathJax</A>
+requires JavaScript to process the mathematics on this page.<BR>
+If your browser supports JavaScript, be sure it is enabled.<B>
+</DIV>
+<HR>
+</NOSCRIPT>
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Matthew Johnson<span class="logo_colour"></span></a></h1>
+          <h2>Professor of Computer Science, Durham University</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+	  <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+
+<ul>
+<li><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-7295-2663" href="https://orcid.org/0000-0002-7295-2663" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID</a></div></li>
+
+<li><a href="https://scholar.google.co.uk/citations?user=4kDHz9AAAAAJ&hl=en">Google Scholar</a></li>
+
+<li><a href="https://dblp.org/pid/j/MatthewJohnson2.html">dblp</a></li>
+
+<li><a href="https://dro.dur.ac.uk/cgi/search/author?screen=Public%3A%3AEPrintSearch&creators_name=johnson&department_dur=DDD4&order=-date%2Fcreators_name%2Ftitle&_action_search=Search
+">DRO</a></li>
+
+
+
+
+
+</ul>
+
+       </div>
+          <div class="sidebar_base"></div>
+        </div>
+
+
+
+              </div>
+      <div id="content">
+        <!-- insert the page content here -->
+ 
+<!--p><span style="float:right;"><font size="-1"> <a href='javascript:all_abstracts_show_hide()'>show/hide all abstracts</a></font></span><p-->  
+
+<h1>Journal Papers</h1>
+
+
+<ul>
+
+
+<li> <span class="papertitle">Graph isomorphism for <i>(H<sub>1</sub>,H<sub>2</sub>)</i>-free graphs: an almost complete dichotomy. </span><br>
+M. Bonamy, N. Bousquet, K.K. Dabrowski, M. Johnson, D. Paulusma, T. Pierron.<br>
+Algorithmica, to appear.<br>
+<a href="http://arxiv.org/abs/1811.12252">arxiv</a> 
+&nbsp<!--a href="http://dx.doi.org/10.1007/978-3-030-24766-9_14">doi</a-->
+<br><br>
+
+<li> <span class="papertitle">On cycle transversals and their connected variants in the absence of a small linear forest. </span><br>
+K. K. Dabrowski, C. Feghali, M. Johnson, G. Paesani, D. Paulusma, P. Rz&#261;&#380;ewski	.<br>
+Algorithmica (2020).<br>
+ <a href="https://arxiv.org/abs/1908.00491	">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1007/s00453-020-00706-6">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(41)' id='sh_41' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_41' style="display:none; background-color: 	#d3ddf2; padding:0px 5px 0px 5px; width:90%"><p>A graph is \(H\)-free if it contains no induced subgraph isomorphic to \(H\). We prove new complexity results for the two classical cycle transversal problems FEEDBACK VERTEX SET and ODD CYCLE TRANSVERSAL by showing that they can be solved in polynomial time on \((sP_1+P_3)\)-free graphs for every integer \(s\geq 1\). We show the same result for the variants CONNECTED FEEDBACK VERTEX SET and CONNECTED ODD CYCLE TRANSVERSAL. We also prove that the latter two problems are polynomial-time solvable on cographs; this was already known for FEEDBACK VERTEX SET and ODD CYCLE TRANSVERSAL. We complement these results by proving that ODD CYCLE TRANSVERSAL and CONNECTED ODD CYCLE TRANSVERSAL are NP-complete on \((P_2+P_5,P_6)\)-free graphs.</div> 
+<br>
+
+<li> <span class="papertitle">Clique-width for graph classes closed under complementation. </span><br>
+A. Blanche, K. K. Dabrowski, M. Johnson, V. Lozin,  D. Paulusma, V. Zamaraev.<br>
+SIAM Journal on Discrete Mathematics 34 (2020), 1107-1147 	<br>
+ <a href="http://arxiv.org/abs/1705.07681">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1137/18M1235016">doi</a> &nbsp <a href='javascript:abstract_show_hide(42)' id='sh_42' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_42' style="display:none; background-color: #d3ddf2; padding:0px 5px 0px 5px; width:90%"><p>Clique-width is an important graph parameter due to its algorithmic and structural properties. A graph class is hereditary if it can be characterized by a (not necessarily finite) set \({\cal H}\) of forbidden induced subgraphs. We study the boundedness of clique-width of hereditary graph classes closed under complementation. First, we extend the known classification for the \(|{\cal H}|=1\) case by classifying the boundedness of clique-width for every set \({\cal H}\) of self-complementary graphs. We then completely settle the \(|{\cal H}|=2\) case. In particular, we determine one new class of \((H,\overline{H})\)-free graphs of bounded clique-width (as a side effect, this leaves only five classes of \((H_1,H_2)\)-free graphs, for which it is not known whether their clique-width is bounded). Once we have obtained the classification of the \(|{\cal H}|=2\) case, we research the effect of forbidding self-complementary graphs on the boundedness of clique-width. Surprisingly, we show that for every set \({\cal F}\) of self-complementary graphs on at least five vertices, the classification of the boundedness of clique-width for \((\{H,\overline{H}\}\cup {\cal F})\)-free graphs coincides with the one for the \(|{\cal H}|=2\) case if and only if \({\cal F}\) does not include the bull.</div> 
+<br>
+
+<li> <span class="papertitle">Independent feedback vertex set for <i>P<sub>5</sub></i>-free graphs. </span><br>
+M. Bonamy, K. K. Dabrowski, C. Feghali, M. Johnson,  D. Paulusma.<br>
+Algorithmica 81 (2019), 1342-1369.<br>
+ <a href="http://arxiv.org/abs/1707.09402">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1007/s00453-018-0474-x">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(36)' id='sh_36' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_36' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The NP-complete problem FEEDBACK VERTEX SET is that of deciding whether or not it is possible, for a given integer  \(k \geq 0\) , to delete at most \(k\) vertices from a given graph so that what remains is a forest. The variant in which the deleted vertices must form an independent set is called INDEPENDENT FEEDBACK VERTEX SET and is also NP-complete. In fact, even deciding if an independent feedback vertex set exists is NP-complete and this problem is closely related to the 3-COLOURING problem, or equivalently, to the problem of deciding whether or not a graph has an independent odd cycle transversal, that is, an independent set of vertices whose deletion makes the graph bipartite. We initiate a systematic study of the complexity of INDEPENDENT FEEDBACK VERTEX SET for \(H\)-free graphs. We prove that it is NP-complete if \(H\) contains a claw or cycle. Tamura, Ito and Zhou proved that it is polynomial-time solvable for   \(P_4\)-free graphs. We show that it remains polynomial-time solvable for   \(P_5\)-free graphs. We prove analogous results for the INDEPENDENT ODD CYCLE TRANSVERSAL problem, which asks whether or not a graph has an independent odd cycle transversal of size at most \(k\) for a given integer  \(k\geq 0\) . Finally, in line with our underlying research aim, we compare the complexity of INDEPENDENT FEEDBACK VERTEX SET for \(H\)-free graphs with the complexity of 3-COLOURING, INDEPENDENT ODD CYCLE TRANSVERSAL and other related problems.</div> 
+<br>
+	
+<li> <span class="papertitle">Clique-width for hereditary graph classes.</span><br>
+K.K. Dabrowski, M. Johnson and D. Paulusma.<br>
+London Mathematical Society Lecture Note Series 456 (2019) 1-56.<br>
+ <a href="https://arxiv.org/abs/1901.00335">arxiv</a> 
+&nbsp<a href=" https://doi.org/10.1017/9781108649094.002">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(39)' id='sh_39' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_39' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Clique-width is a well-studied graph parameter owing to its use in understanding algorithmic tractability: if the clique-width of a graph class \(\mathcal{G}\) is bounded by a constant, a wide range of problems that are NP-complete in general can be shown to be polynomial-time solvable on \(\mathcal{G}\). For this reason, the boundedness or unboundedness of clique-width has been investigated and determined for many graph classes. We survey these results for hereditary graph classes, which are the graph classes closed under taking induced subgraphs. We then discuss the algorithmic consequences of these results, in particular for the COLOURING and GRAPH ISOMORPHISM problems. We also explain a possible strong connection between results on boundedness of clique-width and on well-quasi-orderability by the induced subgraph relation for hereditary graph classes.
+</div> 
+<br>
+
+
+<li> <span class="papertitle">Independent feedback vertex sets for graphs of bounded diameter. </span><br>
+M. Bonamy, K. K. Dabrowski, C. Feghali, M. Johnson,  D. Paulusma.<br>
+Information Processing Letters 131 (2018), 26-32.<br>
+ <a href="http://arxiv.org/abs/1707.09383">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1016/j.ipl.2017.11.004">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(33)' id='sh_33' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_33' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The NEAR-BIPARTITENESS problem is that of deciding whether or not the vertices of a graph can be partitioned into sets \(A\) and \(B\), where \(A\) is an independent set and \(B\) induces a forest. The set \(A\) in such a partition is said to be an independent feedback vertex set. Yang and Yuan proved that NEAR-BIPARTITENESS is polynomial-time solvable for graphs of diameter 2 and NP-complete for graphs of diameter 4. We show that NEAR-BIPARTITENESS is NP-complete for graphs of diameter 3, resolving their open problem. We also generalise their result for diameter 2 by proving that even the problem of computing a minimum independent feedback vertex is polynomial-time solvable for graphs of diameter 2.</div> 
+<br>
+
+
+<li> <span class="papertitle">Recognizing graphs close to bipartite graphs with an application to colouring reconfiguration. </span><br>
+M. Bonamy, K. K. Dabrowski, C. Feghali, M. Johnson,  D. Paulusma.<br>
+ <a href="http://arxiv.org/abs/1707.09817">arxiv</a> 
+&nbsp<!--a href="http://dx.doi.org/10.1007/978-3-319-58741-7_26">doi</a-->
+<br><br>
+
+<li> <span class="papertitle">Surjective <i>H</i>-Colouring: new hardness results. </span><br>
+P. Golovach, M. Johnson, B. Martin, D. Paulusma, A. Stewart.<br>
+Computability (2018).<br>
+ <a href="http://arxiv.org/abs/1701.02188">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.3233/COM-180084">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(34)' id='sh_34' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_34' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A homomorphism from a graph \(G\) to a graph \(H\) is a vertex mapping \(f\) from the vertex set of \(G\) to the vertex set of \(H\) such that there is an edge between vertices \(f(u)\) and \(f(v)\) of \(H\) whenever there is an edge between vertices \(u\) and \(v\) of \(G\). The \(H\)-Colouring problem is to decide if a graph \(G\) allows a homomorphism to a fixed graph \(H\). We continue a study on a variant of this problem, namely the Surjective \(H\)-Colouring problem, which imposes the homomorphism to be vertex-surjective. We build upon previous results and show that this problem is NP-complete for every connected graph \(H\) that has exactly two vertices with a self-loop as long as these two vertices are not adjacent. As a result, we can classify the computational complexity of Surjective \(H\)-Colouring for every graph \(H\) on at most four vertices.
+</div> 
+<br>
+
+<li> <span class="papertitle">Connected vertex cover for <i>(sP<sub>1</sub>+P<sub>5</sub>)</i>-free graphs. </span><br>
+M. Johnson, G. Paesani,  D. Paulusma.<br>
+Algorithmica 82 (2020), 20-40.<br>
+ <a href="http://arxiv.org/abs/1712.08362">arxiv</a> 
+&nbsp<a href="https://doi.org/10.1007/s00453-019-00601-9">doi</a> &nbsp<a href='javascript:abstract_show_hide(40)' id='sh_40' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_40' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The CONNECTED VERTEX COVER problem is to decide if a graph \(G\) has a vertex cover of size at most \(k\) that induces a connected subgraph of \(G\). This is a well-studied problem, known to be NP-complete for restricted graph classes, and, in particular, for \(H\)-free graphs if \(H\) is not a linear forest. On the other hand, the problem is known to be polynomial-time solvable for   \(sP_2\)-free graphs for any integer \(s \geq 1\). We give a polynomial-time algorithm to solve the problem for \((sP_1+P_5)\)-free graphs for every integer \(s \geq 0\). Our algorithm can also be used for the WEIGHTED CONNECTED VERTEX COVER problem.
+</div> 
+<br>
+
+
+<li> <span class="papertitle"> Minimum connected transversals in graphs: new hardness results and tractable cases using the price of connectivity.</span><br>
+N. Chiarelli, T. R. Hartinger, M. Johnson, M. Milanic, D. Paulusma.<br>
+Theoretical Computer Science 705 (2018), 75-83. <br>
+<a href="http://arxiv.org/abs/1706.08050">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.tcs.2017.09.033">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(30)' id='sh_30' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_30' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We perform a systematic study in the computational complexity of the connected variant of three related transversal problems: VERTEX COVER, FEEDBACK VERTEX SET, and ODD CYCLE TRANSVERSAL. Just like their original counterparts, these variants are NP-complete for general graphs. A graph \(G\) is \(H\)-free for some graph \(H\) if \(G\) contains no induced subgraph isomorphic to \(H\). It is known that CONNECTED VERTEX COVER is NP-complete even for \(H\)-free graphs if \(H\) contains a claw or a cycle. We show that the two other connected variants also remain NP-complete if \(H\) contains a cycle or claw. In the remaining case \(H\) is a linear forest. We show that CONNECTED VERTEX COVER, CONNECTED FEEDBACK VERTEX SET, and CONNECTED ODD CYCLE TRANSVERSAL are polynomial-time solvable for \(sP_2\)-free graphs for every constant \(s\geq1\). For proving these results we use known results on the price of connectivity for vertex cover, feedback vertex set, and odd cycle transversal. This is the first application of the price of connectivity that results in polynomial-time algorithms.</div> 
+<br>
+
+
+
+<li> <span class="papertitle"> Enclosings of decompositions of complete multigraphs in 2-factorizations.</span><br>
+C. Feghali, M. Johnson.<br>
+Journal of Combinatorial Designs 26 (2018), 205-218.<br>
+<a href="http://arxiv.org/abs/1608.06961">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jcd.21601">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(31)' id='sh_31' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_31' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Let \(k\), \(m\), \(n\), \(\lambda\), and \(\mu\) be positive integers. A decomposition of \(\lambda K_n\) into edge-disjoint subgraphs \(G_1, \ldots, G_k\) is said to be enclosed by a decomposition of \(\mu K_m\) into edge-disjoint subgraphs \(H_1, \ldots, H_k\) if \(\mu > \lambda\) and, after a suitable labeling of the vertices in both graphs, \(\lambda K_n\) is a subgraph of \(\mu K_m\) and \(G_i\) is a subgraph of \(H_i\) for all \(i = 1, \ldots, k\). In this paper, we continue the study of enclosings of given decompositions by decompositions that consist of spanning subgraphs. A decomposition of a graph is a 2-factorization if each subgraph is 2-regular and spanning, and is Hamiltonian if each subgraph is a Hamiltonian cycle. We give necessary and sufficient conditions for the existence of a 2-factorization of \(\mu K_{n+m}\) that encloses a given decomposition of \(\lambda K_n\) whenever \(\mu > \lambda\) and \(m \geq n-2\). We also give necessary and sufficient conditions for the existence of a Hamiltonian decomposition of \(\mu K_{n+m}\) that encloses a given decomposition of \(\lambda K_n\) whenever \(\mu > \lambda\) and either \(m \geq n-1\) or \(n=3\) and \(m=1\), or \(\mu=2\), \(\lambda=1\), and \(m=n-2\).
+</div> 
+<br>
+
+
+<li> <span class="papertitle"> Hereditary graph classes: when the complexities of Colouring and Clique Cover coincide.</span><br>
+A. Blanche, K. K. Dabrowski, M. Johnson, D. Paulusma.<br>
+Journal of Graph Theory 91 (2019), 267-289. <br>
+<a href="http://arxiv.org/abs/1607.06757">arxiv</a>
+&nbsp<a href=" https://doi.org/10.1002/jgt.22431">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(37)' id='sh_37' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_37' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A graph is \((H_1,H_2)\)-free for a pair of graphs \(H_1,H_2\) if it contains no induced subgraph isomorphic to \(H_1\) or \(H_2\). In 2001, Kr&aacute;l et al initiated a study into the complexity of COLORING for \((H_1,H_2)\)-free graphs. Since then, others have tried to complete their study, but many cases remain open. We focus on those \((H_1,H_2)\)-free graphs where \(H_2\) is \(\overline{H_1}\), the complement of \(H_1\). As these classes are closed under complementation, the computational complexities of COLORING and CLIQUE COVER coincide. By combining new and known results, we are able to classify the complexity of coloring and clique cover for \((H_1,\overline{H_1})\)-free graphs for all cases except when \(H=sP_1+P_3\) for \(s \geq 3\) or \(H=sP_1+P_4\) for \(s \geq 2\). We also classify the complexity of COLORING on graph classes characterized by forbidding a finite number of self-complementary induced subgraphs, and we initiate a study of \(k\)-COLORING for \((P_r,\overline{P_r})\)-free graphs.</div> 
+<br>
+
+
+
+<li> <span class="papertitle"> On a conjecture of Mohar concerning Kempe equivalence of regular graphs.</span><br>
+ M. Bonamy, N. Bousquet, C. Feghali, M. Johnson.<br>
+Journal of Combinatorial Theory, Series B (2018).<br>
+<a href="http://arxiv.org/abs/1510.06964">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.jctb.2018.08.002">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(35)' id='sh_35' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_35' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Let \(G\) be a graph with a vertex colouring \(\alpha\). Let \(a\) and \(b\) be two colours. Then a connected component of the subgraph induced by those vertices coloured either \(a\) or \(b\) is known as a Kempe chain. A colouring of \(G\) obtained from \(\alpha\) by swapping the colours on the vertices of a Kempe chain is said to have been obtained by a Kempe change. Two colourings of \(G\) are Kempe equivalent if one can be obtained from the other by a sequence of Kempe changes.
+
+<p>A conjecture of Mohar (2007) asserts that, for \(k \geq 3\), all \(k\)-colourings of a \(k\)-regular graph that is not complete are Kempe equivalent. It was later shown that all 3-colourings of a cubic graph that is neither \(K_4\) nor the triangular prism are Kempe equivalent. In this paper, we prove that the conjecture holds for each \(k \geq 4\). We also report the implications of this result on the validity of the Wang–Swendsen–Kotecký algorithm for the antiferromagnetic Potts model at zero-temperature.
+</div> 
+<br>
+
+
+
+<li> <span class="papertitle"> What graphs are 2-dot product graphs.</span><br>
+ M. Johnson, D. Paulusma, E. J. van Leeuwen.<br>
+<a href="http://arxiv.org/abs/1511.05009">arxiv</a><br>
+
+<li> <span class="papertitle">Erdos-Ko-Rado theorems for a family of trees.</span><br>
+ C. Feghali, M. Johnson, D. Thomas.<br>
+Discrete Applied Mathematics 236 (2018), 464-471<br>
+ <a href="http://arxiv.org/abs/1506.07741">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.dam.2017.10.009">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(32)' id='sh_32' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_32' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A family of sets is intersecting if any two sets in the family intersect. Given a graph \(G\)  and an integer \(r \geq 1\), let \(\mathcal{I}^{(r)}(G)\) denote the family of independent sets of size \(r\) of \(G\). For a vertex \(v\) of \(G\), let \(\mathcal{I}_v^{(r)}(G)\) denote the family of independent sets of size \(r\)  that contain \(v\). This family is called an \(r\)-star and \(v\) is its centre. Then \(G\)  is said to be \(r\)-EKR if no intersecting subfamily of \(\mathcal{I}^{(r)}(G)\)  is bigger than the largest \(r\)-star, and if every maximum size intersecting subfamily of \(\mathcal{I}^{(r)}(G)\) is an \(r\)-star, then \(G\) is said to be strictly \(r\)-EKR. Let \(\mu(G)\) denote the minimum size of a maximal independent set of \(G\). Holroyd and Talbot conjectured that if \(2r\leq \mu(G)\), then \(G\) is \(r\)-EKR, and it is strictly \(r\)-EKR if \(2r< \mu(G)\).
+
+<p>This conjecture has been investigated for several graph classes, but not trees (except paths). In this note, we present a result for a family of trees. A depth-two claw is a tree in which every vertex other than the root has degree 1 or 2 and every vertex of degree 1 is at distance 2 from the root. We show that if \(G\) is a depth-two claw, then \(G\) is strictly \(r\)-EKR if \(2r\leq \mu(G)+1\), confirming the conjecture of Holroyd and Talbot for this family.
+
+<p>Hurlbert and Kamat had conjectured that one can always find a largest \(r\)-star of a tree whose centre is a leaf. Baber and Borg have independently shown this to be false. We show that, moreover, for all integers \(n\geq 2\) and \(d\geq 3\), there exists a positive integer \(r\)  such that there is a tree where the centre of the largest \(r\)-star is a vertex of degree \(n\) at distance \(d\) from every leaf.</div> 
+<br>
+
+
+
+
+
+<li> <span class="papertitle"> A survey on the computational complexity of colouring graphs with forbidden subgraphs.</span><br>
+ P. A. Golovach, M. Johnson, D. Paulusma, J. Song.<br>
+Journal of Graph Theory 84 (2017), 331-363. <br> <a href="http://arxiv.org/abs/1407.1482">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.22028">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(21)' id='sh_21' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_21' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a positive integer \(k\), a \(k\)-coloring of a graph \(G=(V,E)\) is a mapping \(c: V \rightarrow \{1,2,\ldots,k\}\) such that \(c(u) \neq c(v)\) whenever \(uv \in E\). The COLORING problem is to decide, for a given \(G\) and \(k\), whether a \(k\)-coloring of \(G\) exists. If \(k\) is fixed (i.e., it is not part of the input), we have the decision problem \(k\)-COLORING instead. We survey known results on the computational complexity of COLORING and \(k\)-COLORING for graph classes that are characterized by one or two forbidden induced subgraphs. We also consider a number of variants: for example, where the problem is to extend a partial coloring, or where lists of permissible colors are given for each vertex.
+</div> 
+<br>
+
+<li> <span class="papertitle">The price of connectivity for cycle transversals.</span><br>
+T. R. Hartinger, M. Johnson, M. Milanic, D.Paulusma.<br>
+European Journal of Combinatorics 58 (2016), 203-224. <br>
+<a href="research/papers/transversal-arxiv.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.ejc.2016.06.003">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(4)' id='sh_4' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_4' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a family of graphs \(\mathcal{F}\), an \(\mathcal{F}\)-transversal of a graph \(G\) is a subset \(S \subseteq V(G)\) that intersects every subset of \(V(G)\) that induces a subgraph isomorphic to a graph in \(\mathcal{F}\).  Let \(t_{\mathcal{F}}(G)\) be the minimum size of an \(\mathcal{F}\)-transversal of \(G\), and \(ct_{\mathcal{F}}(G)\) be the minimum size of an \(\mathcal{F}\)-transversal of \(G\) that induces a connected graph.  For a class of connected graphs \(\mathcal{G}\), we say that the price of connectivity of \(\mathcal{F}\)-transversals is multiplicative if, for all \(G \in \mathcal{G}\), \(ct_{\mathcal{F}}(G) / t_{\mathcal{F}}(G)\) is bounded by a constant, and additive if \(ct_{\mathcal{F}}(G) - t_{\mathcal{F}}(G)\) is bounded by a constant.  The price of connectivity is identical if \(t_{\mathcal{F}}(G)\) and \(ct_{\mathcal{F}}(G)\) are always equal and unbounded if \(ct_{\mathcal{F}}(G)\) cannot be bounded in terms of \(t_{\mathcal{F}}(G)\).  We study classes of graphs characterized by one forbidden induced subgraph \(H\) and \(\mathcal{F}\)-transversals where \(\mathcal{F}\) contains an infinite number of cycles and, possibly, also one or more anticycles or short paths.  We determine exactly those classes of connected \(H\)-free graphs where the price of connectivity of these \(\mathcal{F}\)-transversals is unbounded, multiplicative, additive, or identical. In particular, our tetrachotomies extend known results for the case when \(\mathcal{F}\) is the family of all cycles.</div> 
+<br>
+
+<li> <span class="papertitle"> A serial multilevel hypergraph partitioning algorithm.</span><br>
+ F. Lotfifar, M. Johnson.<br>
+ <a href="http://arxiv.org/abs/1601.01336">arxiv</a><br>
+<br>
+
+<li> <span class="papertitle">A reconfigurations analogue of Brooks' Theorem and its consequences.</span><br>
+C. Feghali, M. Johnson, D. Paulusma. <br>
+Journal of Graph Theory 83 (2016), 340-358. <br> <a href="http://arxiv.org/abs/1501.05800">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.22000">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(27)' id='sh_27' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_27' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>
+Let \(G\) be a simple undirected graph on \(n\) vertices with maximum degree \(\Delta\).  Brooks' Theorem states that \(G\) has a \(\Delta\)-colouring unless \(G\) is a complete graph, or a cycle with an odd number of vertices.  To recolour \(G\) is to obtain a new proper colouring by changing the colour of one vertex.  We show an analogue of Brooks' Theorem by proving
+that  from any \(k\)-colouring, \(k>\Delta\), a \(\Delta\)-colouring of \(G\) can be obtained by a sequence of \(O(n^2)\) recolourings using only the original \(k\) colours unless
+<ul>
+<li> \(G\) is a complete graph or a cycle with an odd number of vertices, or
+<li> \(k=\Delta+1\), \(G\) is \(\Delta\)-regular and, for each vertex \(v\) in \(G\), no two neighbours of \(v\) are coloured alike.
+</ul>
+<p>We use this result to study the reconfiguration graph \(R_k(G)\) of the  \(k\)-colourings of  \(G\).  The vertex set of \(R_k(G)\) is the set of all possible \(k\)-colourings of \(G\) and two colourings are adjacent if they differ on exactly one vertex.
+We prove that for \(\Delta\geq 3\), \(R_{\Delta+1}(G)\) consists of isolated vertices and at most one further component which has diameter \(O(n^2)\).
+This result enables us to complete both a structural classification and an algorithmic classification for reconfigurations of colourings of graphs of bounded maximum degree.
+</div> 
+<br>
+
+<li> <span class="papertitle">Smart grid-aware scheduling in data centres.</span><br>
+M. M&auml;sker, L. Nagel, F. Lotfifar, M. Johnson, A. Brinkmann.<br>
+Computer Communications 96 (2016), 73-85. <br> 
+<a href="research/papers/smart2.pdf">pdf</a>  
+&nbsp<a href="http://dx.doi.org/10.1016/j.comcom.2016.04.021">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(28)' id='sh_28' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_28' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>In several countries the expansion and establishment of renewable energies result in widely scattered and often weather-dependent energy production, decoupled from energy demand. Large, fossil-fuelled power plants are gradually replaced by many small power stations that transform wind, solar and water power into electrical power. This leads to changes in the historically evolved power grid that favours top-down energy distribution from a backbone of large power plants to widespread consumers. Now, with the increase of energy production in lower layers of the grid, there is also a bottom-up flow of the grid infrastructure compromising its stability. In order to locally adapt the energy demand to the production, some countries have started to establish Smart Grids to incentivise customers to consume energy when it is generated.</p> 
+<p>This paper investigates how data centres can benefit from variable energy prices in Smart Grids. In view of their low average utilisation, data centre providers can schedule the workload dependent on the energy price. We consider a scenario for a data centre in Paderborn, Germany, hosting a large share of interruptible and migratable computing jobs. We suggest and compare two scheduling strategies for minimising energy costs. The first one merely uses current values from the Smart Meter to place the jobs, while the other one also estimates the future energy price in the grid based on weather forecasts. In spite of the complexity of the prediction problem and the inaccuracy of the weather data, both strategies perform well and have a strong positive effect on the utilisation of renewable energy and on the reduction of energy costs.</p> 
+<p>This work improves and extends the paper of the same title published on the <em>SustainIT</em> conference [M. M&auml;sker, L. Nagel, A. Brinkmann, F. Lotfifar, M. Johnson, Smart gridaware scheduling in data centres, in: 2015 Sustainable Internet and ICT for Sustainability, SustainIT 2015, Madrid, Spain, April 14-15, 2015, IEEE, 2015, pp. 1-9.]. While that paper puts more emphasis on the utilisation of green energy, the new algorithms find a better balance between energy costs and turnaround time. We slightly alter the scenario using a more realistic multi-queue batch system and improve the scheduling algorithms which can be tuned to prioritise turnaround time or green energy utilisation.</p></div>
+<br>
+
+
+
+<li> <span class="papertitle">Filling the complexity gaps for colouring planar and bounded degree graphs.</span><br>
+K. K. Dabrowski, F. Dross, M. Johnson, D.Paulusma.<br>
+Journal of Graph Theory 92 (2019), 377-393.<br>
+ <a href="http://arxiv.org/abs/1506.06564">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.22459">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(38)' id='sh_38' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_38' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A colouring of a graph \(G=(V,E)\) is a function \(c: V \rightarrow \{1,2,\ldots\}\) such that \(c(u) \neq c(v)\) for every \(uv \in E\). A \(k\)-regular list assignment of \(k\) is a function \(L\) with domain \(V\) such that for every \(u \in V\), \(L(u)\) is a subset of \(\{1,2,\ldots\}\) of size \(k\). A colouring \(c\) of \(G\) respects a \(k\)-regular list assignment \(L\) of \(G\) if \(c(u) \in L(u)\) for every \(u \in V\). A graph \(G\) is \(k\)-choosable if for every \(k\)?regular list assignment \(L\) of \(G\), there exists a colouring of \(G\) that respects \(L\). We may also ask if for a given \(k\)-regular list assignment \(L\) of a given graph \(G\), there exists a colouring of  \(G\) that respects \(L\). This yields \(k\)-REGULAR LIST COLOURING problem. For \(k \in \{3,4\}\), we determine a family of classes \(\mathcal{G}\) of planar graphs, such that either \(k\)-REGULAR LIST COLOURING is NP-complete for instances \((G,L)\) with \(G \in \mathcal{G}\), or every \(G \in \mathcal{G}\)  is \(k\)-choosable. By using known examples of non-3-choosable and non-4-choosable graphs, this enables us to classify the complexity of \(k\)-REGULAR LIST COLOURING restricted to planar graphs, planar bipartite graphs, planar triangle-free graphs, and planar graphs with no 4-cycles and no 5-cycles. We also classify the complexity of \(k\)- REGULAR LIST COLOURING and a number of related colouring problems for graphs with bounded maximum degree.</p></div>
+<br>
+
+<li> <span class="papertitle">Kempe equivalence of colourings of cubic graphs. </span><br>
+C. Feghali, M. Johnson, D. Paulusma.<br>
+European Journal of Combinatorics 59 (2017), 1-10. <br>
+ <a href="http://arxiv.org/abs/1503.03430">arxiv</a> &nbsp<a href="http://dx.doi.org/10.1016/j.ejc.2016.06.008">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(29)' id='sh_29' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_29' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Given a graph \(G=(V,E)\) and a proper vertex colouring of \(G\), a Kempe chain is a subset of \(V\) that induces a maximal connected subgraph of \(G\) in which every vertex has one of two colours.  To make a Kempe change is to obtain one colouring from another by exchanging the colours of vertices in a Kempe chain.  Two colourings are Kempe equivalent if each can be obtained from the other by a series of Kempe changes. A conjecture of Mohar asserts that, for \(k \geq 3\), all \(k\)-colourings of connected \(k\)-regular graphs  that are not complete are Kempe equivalent. We address the case \(k=3\) by showing that all \(3\)-colourings of a connected cubic graph \(G\) are Kempe equivalent unless \(G\) is the complete graph \(K_4\) or the triangular prism. </div> 
+<br>
+
+
+<li> <span class="papertitle">Finding shortest paths between graph colourings.</span><br>
+M. Johnson, D. Kratsch, S. Kratsch, V. Patel, D. Paulusma.<br>
+Algorithmica 75 (2016), 295-321. <br>
+<a href="http://arxiv.org/abs/1403.6347">arxiv</a> &nbsp<a href="http://dx.doi.org/10.1007/s00453-015-0009-7">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(26)' id='sh_26' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_26' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The \(k\)-colouring reconfiguration problem asks whether, for a given graph \(G\), two proper \(k\)-colourings \(\alpha\) and \(\beta\) of \(G\), and a positive integer \(\ell\), there exists a sequence of at most \(\ell+1\) proper \(k\)-colourings of \(G\) which starts with \(\alpha\) and ends with \(\beta\) and where successive colourings in the sequence differ on exactly one vertex of \(G\). We give a complete picture of the parameterized complexity of the \(k\)-colouring reconfiguration problem for each fixed \(k\) when parameterized by \(\ell\). First we show that the \(k\)-colouring reconfiguration problem is polynomial-time solvable for \(k=3\), settling an open problem of Cereceda, van den Heuvel and Johnson. Then, for all \(k\geq 4\), we show that the \(k\)-colouring reconfiguration problem, when parameterized by \(\ell\), is fixed-parameter tractable (addressing a question of Mouawad, Nishimura, Raman, Simjour and Suzuki) but that it has no polynomial kernel unless the polynomial hierarchy collapses. </div> 
+<br>
+
+<li> <span class="papertitle">Narrowing the complexity gap for colouring (<i>C<sub>s</sub>, P<sub>t</sub></i>)-free graphs.</span><br>
+S. Huang, M. Johnson, D. Paulusma.<br>
+The Computer Journal 58 (2015), 3074-3088.<br>
+ <a href="http://arxiv.org/abs/1407.1480">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1093/comjnl/bxv039">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(24)' id='sh_24' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_24' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a positive integer \(k\) and graph \(G=(V,E)\), a <i>\(k\)-colouring</i> of \(G\) is  a mapping \(c: V\rightarrow\{1,2,\ldots,k\}\) such that \(c(u)\neq c(v)\) whenever \(uv\in E\).
+<p>The \(k\)-Colouring problem is to decide, for a given \(G\), whether a \(k\)-colouring of \(G\) exists.
+<p>The \(k\)-Precolouring Extension problem is to decide, for a given \(G=(V,E)\), whether a colouring of a subset of \(V\) can be extended to a \(k\)-colouring of \(G\).
+<p>A \(k\)-list assignment of a graph is an allocation of a list - a subset of  \(\{1,\ldots,k\}\) - to each vertex, and the List \(k\)-Colouring problem is to decide, for a given \(G\), whether \(G\) has a \(k\)-colouring in which each vertex is coloured with a colour from its list.
+<p>We consider the computational complexity of these three decision problems when restricted to graphs that do not contain a cycle on \(s\) vertices or a path on \(t\) vertices as induced subgraphs (for fixed positive integers \(s\) and \(t\)).  We report on past work and prove a number of new NP-completeness results. </div> 
+<br>
+
+<li> <span class="papertitle">Knocking out <i>P<sub>k</sub></i>-free graphs.</span><br> 
+M. Johnson, D. Paulusma, A. Stewart.<br>
+Discrete Applied Mathematics 190-191 (2015), 100-108.<br>
+<a href="pko_p4.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.dam.2015.04.010">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(23)' id='sh_23' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_23' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A parallel knock-out scheme for a graph proceeds in rounds in each of which each surviving vertex eliminates one of its surviving neighbours. A graph is KO-reducible if there exists such a scheme that eliminates every vertex in the graph. The Parallel Knock-Out problem is to decide whether a graph \(G\) is KO-reducible. This problem is known to be NP-complete and has been studied for several graph classes. We show that the problem is NP-complete even for split graphs, a subclass of \(P_5\)-free graphs. In contrast, our main result is that it is linear-time solvable for \(P_4\)-free graphs (cographs).</div> 
+</li>
+<br>
+
+<li> <span class="papertitle">Algorithms to measure diversity and clustering in social networks through dot product graphs.</span><br>
+M. Johnson, D. Paulusma, E. J. van Leeuwen.<br>
+Social Networks 41 (2015), 48-55.<br>
+<a href="research/papers/dotproduct.pdf">pdf</a> 
+&nbsp<a href="http://dx.doi.org/10.1016/j.socnet.2015.01.001">doi</a>    
+&nbsp<a href='javascript:abstract_show_hide(20)' id='sh_20' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_20' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>In this paper, we investigate a graph-theoretical model of social networks. The dot product model assumes that two individuals are connected in the social network if their attributes or opinions are similar. In the model, a \(d\)-dimensional vector <b>a</b>\(^v\) represents the extent to which individual \(v\) has each of a set of \(d\) attributes or opinions. Then two individuals \(u\)   and \(v\) are assumed to be friends, that is, they are connected in the graph model, if and only if <b>a</b>\(^u \cdot \) <b>a</b>\(^v  \geq t\), for some fixed, positive threshold \(t\). The resulting graph is called a \(d\)<i>-dot product graph</i>.</p>
+<p>We consider diversity and clustering in social networks by using a \(d\)-dot product graph model for the network. Diversity is considered through the size of the largest independent set of the graph, and clustering through the size of the largest clique. We present both positive and negative results on the potential of this model. We obtain a tight result for the diversity problem, namely that it is polynomial-time solvable for \(d=2\), but NP-hard for \(d \geq 3\). We show that the clustering problem is polynomial-time solvable for \(d=2\). To our knowledge, these results are also the first on the computational complexity of combinatorial optimization problems on dot product graphs. We also give new insights into the structure of dot product graphs.</p>
+
+We also consider the situation when two individuals \(u\)   and \(v\) are connected if and only if their preferences are not antithetical, that is, if and only if  <b>a</b>\(^u \cdot \) <b>a</b>\(^v  \geq 0\), and the situation when two individuals \(u\)   and \(v\) are connected if and only if their preferences are neither antithetical nor â€?orthogonalâ€?, that is, if and only if <b>a</b>\(^u \cdot \) <b>a</b>\(^v  > 0\). For these two cases we prove that the diversity problem is polynomial-time solvable for any fixed \(d\) and that the clustering problem is polynomial-time solvable for \(d \leq 3\).</p></div>
+<br>
+
+<li> <span class="papertitle">Reconfiguration graphs for vertex colourings of chordal and chordal bipartite graphs.</span><br>
+M. Bonamy, M. Johnson, I.M. Lignos, V. Patel, D. Paulusma.<br>
+Journal of Combinatorial Optimization 27 (2014), 132-143.<br>
+<a href="http://dro.dur.ac.uk/10709/1/10709.pdf?DDD10+dul4eg+dul4eg">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/s10878-012-9490-y">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(19)' id='sh_19' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_19' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A \(k\)-colouring of a graph \(G=(V,E)\) is a mapping \(c:V \rightarrow \{1,2,\ldots,k\}\) such that \(c(u) \neq c(v)\) whenever \(uv\) is an edge. The reconfiguration graph of the \(k\)-colourings of \(G\) contains as its vertex set the \(k\)-colourings of \(G\), and two colourings are joined by an edge if they differ in colour on just one vertex of \(G\). We introduce a class of \(k\)-colourable graphs, which we call \(k\)-colour-dense graphs. We show that for each \(k\)-colour-dense graph \(G\), the reconfiguration graph of the \(\ell\)-colourings of \(G\) is connected and has diameter \(O(|V|^2)\), for all \(\ell \geq k+1\). We show that this graph class contains the \(k\)-colourable chordal graphs and that it contains all chordal bipartite graphs when \(k=2\). Moreover, we prove that for each \(k \geq 2\) there is a \(k\)-colourable chordal graph \(G\) whose reconfiguration graph of the \((k+1)\)-colourings has diameter \(\Theta(|V|^2)\).</p></div> 
+</li>
+<br>
+
+<li> <span class="papertitle">Obtaining online ecological colourings by generalizing first-fit.</span><br>
+M. Johnson, V. Patel, D. Paulusma, T. Trunck. <br>
+Theory of Computing Systems 54 (2014), 244-260.<br>
+<a href=http://dro.dur.ac.uk/7416/1/7416.pdf?DDD10+dcs0dp">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/s00224-013-9513-9">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(18)' id='sh_18' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_18' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A colouring of a graph is ecological if every pair of vertices that have the same set of colours in their neighbourhood are coloured alike. We consider the following problem: if a graph \(G\) and an ecological colouring \(c\) of \(G\) are given, can further vertices added to \(G\), one at a time, be coloured so that at each stage the current graph is ecologically coloured? If the answer is yes, then we say that the pair \((G,c)\) is ecologically online extendible. By generalizing the well-known First-Fit algorithm, we are able to characterize when \((G,c)\) is ecologically online extendible, and to show that deciding whether \((G,c)\) is ecologically extendible can be done in polynomial time. We also describe when the extension is possible using only colours from a given finite set \(C\).
+
+<p>For the case where \(c\) is a colouring of \(G\) in which each vertex is coloured distinctly, we give a simple characterization of when \((G,c)\) is ecologically online extendible using only the colours of \(c\), and we also show that \((G,c)\) is always online extendible using the colours of \(c\) plus one extra colour.
+
+<p>We also study (off-line) ecological \(H\)-colourings (an \(H\)-colouring of \(G\) is a homomorphism from \(G\) to \(H\)). We study the problem of deciding whether \(G\) has an ecological \(H\)-colouring for some fixed \(H\) and give a characterization of its computational complexity in terms of the structure of \(H\).</p></div> 
+<br></li>
+
+
+<li> <span class="papertitle">Finding paths between 3-colourings. </span> <br>
+L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+Journal of Graph Theory 67 (2011), 69-82.<br>
+<a href="http://www.cdam.lse.ac.uk/Reports/Files/cdam-2007-31.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.20514">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(17)' id='sh_17' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_17' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Given a 3-colorable graph \(G\) together with two proper vertex 3-colorings \(\alpha\) and \(\beta\) of \(G\), consider the following question: is it possible to transform \(\alpha\) into \(\beta\) by recoloring vertices of \(G\) one at a time, making sure that all intermediate colorings are proper 3-colorings? We prove that this question is answerable in polynomial time. We do so by characterizing the instances \(G\), \(\alpha\), \(\beta\) where the transformation is possible; the proof of this characterization is via an algorithm that either finds a sequence of recolorings between \(\alpha\) and \(\beta\), or exhibits a structure which proves that no such sequence exists. In the case that a sequence of recolorings does exist, the algorithm uses \(O(|V(G)|^2)\) recoloring steps and in many cases returns a shortest sequence of recolorings. We also exhibit a class of instances \(G\), \(\alpha\), \(\beta\) that require \(\Omega(|V(G)|^2)\) recoloring steps</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Mixing 3-colourings in bipartite graphs. </span> <br>
+L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+European Journal of Combinatorics 30 (2009), 1593-1606.<br>
+<a href="research/papers/cdam-2007-06.pdf">pdf</a> 
+&nbsp<A HREF="http://dx.doi.org/10.1016/j.ejc.2009.03.011">doi</A>
+&nbsp<a href='javascript:abstract_show_hide(16)' id='sh_16' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_16' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a 3-colourable graph \(G\), the 3-colour graph of \(G\), denoted \(C_3(G)\), is the graph with node set the proper vertex 3-colourings of \(G\), and two nodes adjacent whenever the corresponding colourings differ on precisely one vertex of \(G\). We consider the following question: given \(G\), how easily can one decide whether or not \(C_3(G)\) is connected? We show that the 3-colour graph of a 3-chromatic graph is never connected, and characterise the bipartite graphs for which \(C_3(G)\) is connected. We also show that the problem of deciding the connectedness of the 3-colour graph of a bipartite graph is coNP-complete, but that restricted to planar bipartite graphs, the question is answerable in polynomial time.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Upper bounds and algorithms for parallel knock-out numbers.</span> <br>
+H.J. Broersma, M. Johnson, D. Paulusma.<br>
+Theoretical Computer Science  410  (2009), 1319-1327.<br>
+<a href="research/papers/knock2.pdf">pdf</a>  
+&nbsp<a href="http://dx.doi.org/10.1016/j.tcs.2008.03.024">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(15)' id='sh_15' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_15' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We study parallel knock-out schemes for graphs. These schemes proceed in rounds in each of which each surviving vertex simultaneously eliminates one of its surviving neighbours; a graph is reducible if such a scheme can eliminate every vertex in the graph. We resolve the square-root conjecture, first posed at MFCS 2004, by showing that for a reducible graph \(G\), the minimum number of required rounds is \(O(\sqrt(n))\); in fact, our result is stronger than the conjecture as we show that the minimum number of required rounds is \(O(\sqrt(\alpha))\), where \alpha is the independence number of \(G\). This upper bound is tight. We also show that for reducible \(K_{1,p}\)-free graphs at most \(p-1\) rounds are required. It is already known that the problem of whether a given graph is reducible is NP-complete. For claw-free graphs, however, we show that this problem can be solved in polynomial time. We also pinpoint a relationship with (locally bijective) graph homomorphisms.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Connectedness of the graph of vertex-colourings. </span><br>
+L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+Discrete Math. 308 (2008), 913-919.    <br>
+<a href="research/papers/cdam-2005-11.pdf">pdf</a> 
+&nbsp<A HREF="http://dx.doi.org/10.1016/j.disc.2007.07.028">doi</A>
+&nbsp<a href='javascript:abstract_show_hide(14)' id='sh_14' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_14' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a positive integer \(k\) and a graph \(G\), the \(k\)-colour graph of \(G\), \(C_k(G)\), is the graph that has the proper \(k\)-vertex-colourings of \(G\) as its vertex set, and two \(k\)-colourings are joined by an edge in \(C_k(G)\) if they differ in colour on just one vertex of \(G\). In this note some results on the connectedness of \(C_k(G)\) are proved. In particular, it is shown that if \(G\) has chromatic number \(k \in \{2,3\}\), then \(C_k(G)\) is not connected. On the other hand, for \(k \geq 4\) there are graphs with chromatic number \(k\) for which \(C_k(G)\) is not connected, and there are \(k\)-chromatic graphs for which \(C_k(G)\) is connected.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">The computational complexity of the parallel knock-out problem.</span><br>
+H.J. Broersma, M. Johnson, D. Paulusma, I.A. Stewart. <br>
+Theoretical Computer Science 393  (2008), 182-195.<br>
+<a href="research/papers/knock.pdf">pdf</a>  
+&nbsp<a href="http://dx.doi.org/10.1016/j.tcs.2007.11.021">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(13)' id='sh_13' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_13' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We consider computational complexity questions related to parallel knock-out schemes for graphs. In such schemes, in each round, each remaining vertex of a given graph eliminates exactly one of its neighbours. We show that the problem of whether, for a given bipartite graph, such a scheme can be found that eliminates every vertex is NP-complete. Moreover, we show that, for all fixed positive integers \(k \geq 2k \geq 2\), the problem of whether a given bipartite graph admits a scheme in which all vertices are eliminated in at most (exactly) \(k\) rounds is NP-complete. For graphs with bounded tree-width, however, both of these problems are shown to be solvable in polynomial time. We also show that \(r\)-regular graphs with \(r \geq 1\), factor-critical graphs and 1-tough graphs admit a scheme in which all vertices are eliminated in one round.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Transversals of subtree hypergraphs and the source location problem in digraphs. </span> <br>
+J. van den Heuvel, M. Johnson.<br>
+Networks 51 (2008) 113-119.<br>
+<a href="research/papers/cdam-2004-10.pdf">pdf</a> 
+&nbsp<A HREF="http://dx.doi.org/10.1002/net.20206">doi</A>
+&nbsp<a href='javascript:abstract_show_hide(12)' id='sh_12' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_12' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>A hypergraph \(H = (V,E)\) is a subtree hypergraph if there is a tree \(T\) on \(V\) such that each hyperedge of \(E\) induces a subtree of \(T\). Since the number of edges of a subtree hypergraph can be exponential in \(n = |V|\), one can not always expect to be able to find a minimum size transversal in time polynomial in \(n\). In this paper, we show that if it is possible to decide if a set of vertices \(W \subseteq V\) is a transversal in time \(S(n)\) (where \(n = |V|\)), then it is possible to find a minimum size transversal in \(O(n^3 S(n))\). This result provides a polynomial algorithm for the Source Location Problem: a set of \((k,l)\)-sources for a digraph \(D = (V,A)\) is a subset \(S\) of \(V\) such that for any \(v \in V\) there are \(k\) arc-disjoint paths that each join a vertex of \(S\) to \(v\) and \(l\) arc-disjoint paths that each join \(v\) to \(S\). The Source Location Problem is to find a minimum size set of \((k,l)\)-sources. We show that this is a case of finding a transversal of a subtree hypergraph, and that in this case \(S(n)\) is polynomial.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Amalgamations of factorizations of complete graphs.</span> <br>
+M. Johnson.<br>
+J. Comb. Theory (B) 97 (2007), 597-611.<br>
+<a href="research/papers/amalg.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.jctb.2006.09.004">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(11)' id='sh_11' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_11' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Let \(t\) be a positive integer, and let \(K=(k_1,\ldots,k_t)\) and \(L=(l_1,\ldots,l_t)\) be collections of nonnegative integers. A \((t,K,L)\)-factorization of a graph is   a decomposition of the graph into factors \(F_1,\ldots,F_t\) such that \(F_i\) is \(k_i\)-regular and \(l_i\)-edge-connected. In this paper, we apply the technique of amalgamations of graphs to study \((t,K,L)\)-factorizations of complete graphs.   In particular, we describe precisely when it is possible to embed a factorization of \(K_{m}\) in a \((t,K,L)\)-factorization of \(K_{n}\).</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Cycle decompositions of the complete graph.</span> <br>
+A.J.W Hilton, M. Johnson.<br>
+Ars Combinatoria 81 (2007).<br>
+<a href="research/papers/alspach.pdf">pdf</a>
+&nbsp<a href='javascript:abstract_show_hide(10)' id='sh_10' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_10' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>For a positive integer \(n\), let \(G\) be \(K_n\) if \(n\) is odd and \(K_n\) less a one-factor if \(n\) is even. In this paper it is shown that, for non-negative integers \(p\), \(q\) and \(r\), there is a decomposition of \(G\) into \(p\) 4-cycles, \(q\) 6-cycles and \(r\) 8-cycles if \(4p+6q+8r=|E(G)|\), \(q=0\) if \(n<6\), and \(r=0\) if \(n<8\).</p></div> 
+<br></li>
+
+<LI> <span class="papertitle">Finding paths between graph colourings: computational complexity and possible distances.</span> <br>
+P. Bonsma, L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+Electronic Notes in Discrete Mathematics 29 (2007), 463-469.<br> 
+<A HREF="http://dx.doi.org/10.1016/j.endm.2007.07.073">doi</A>
+&nbsp<a href='javascript:abstract_show_hide(9)' id='sh_9' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_9' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Suppose we are given a graph \(G\) together with two proper vertex \(k\)-colourings of \(G\), \(\alpha\) and \(\beta\). How easily can we decide whether it is possible to transform \(\alpha\) into \(\beta\) by recolouring vertices of \(G\) one at a time, making sure we always have a proper \(k\)-colouring of \(G\)?
+
+We prove a dichotomy theorem for the computational complexity of this decision problem: for values of \(k \leq 3\) the problem is polynomial-time solvable, while for any fixed \(k \geq 4\) it is PSPACE-complete. What is more, we establish a connection between the complexity of the problem and its underlying structure: we prove that for \(k \leq 3\) the minimum number of necessary recolourings is polynomial in the size of the graph, while for \(k \geq 4\) instances exist where this number is superpolynomial.</p></div> 
+<br></LI> 
+
+<li> <span class="papertitle">Amalgamations of factorizations of complete equipartite graphs.</span><br> 
+A.J.W Hilton, M. Johnson.<br>
+Discrete Math. 284 (2004), 60-77.<br> 
+<a href="research/papers/multi.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.disc.2003.11.030">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(8)' id='sh_8' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_8' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Let \(t\) be a positive integer, and let \(L=(l_1,\ldots,l_t)\) and \(K=(k_1,\ldots,k_t)\) be collections of nonnegative integers. A graph has a \((t,K,L)\) factorization if it can be represented as the edge-disjoint union of factors \(F_1,\ldots,F_t\) where, for \(1\leq i \leq t\), \(F_i\) is \(k_i\)-regular and at least \(l_i\)-edge-connected. In this paper we consider \((t,K,L)\)-factorizations of complete equipartite graphs. First we show precisely when they exist. Then we solve two embedding problems: we show when a factorization of a complete \(\sigma\)-partite graph can be embedded in a \((t,K,L)\)-factorization of a complete \(s\)-partite graph, \( \sigma < s\), and also when a factorization of \(K_{a,b}\) can be embedded in a \((t,K,L)\)-factorization of \(K_{n,n}\), \(a,b\leq n\). Our proofs use the technique of amalgamations of graphs.</p></div> 
+<br></li>
+
+
+<li> <span class="papertitle">Characterization of graphs with Hall number 2.</span><br> 
+Ch. Eslahchi, M. Johnson.<br>
+J. Graph Theory 45 (2003), 81-100. <br>
+<a href="research/papers/hall2.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.10154">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(7)' id='sh_7' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_7' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Hall's condition is a simple requirement that a graph \(G\) and list assignment \(L\) must satisfy if \(G\) is to have a proper \(L\)-colouring. The Hall number of \(G\) is the smallest integer \(m\) such that whenever the lists on the vertices each has size at least \(m\) and Hall's condition is satisfied a proper \(L\)-colouring exists. Hilton and P.D. Johnson introduced the parameter and showed that a graph has Hall number 1 if and only if every block is a clique. In this paper we give a forbidden-induced-subgraph characterization of graphs with Hall number 2</p></div> 
+<br></li>
+
+<li> <span class="papertitle">An algorithm for finding factorizations of complete graphs. </span><br> 
+A.J.W Hilton, M. Johnson.<br>
+J. Graph Theory 43 (2003), 132-136.<br>
+<a href="research/papers/factalg.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1002/jgt.10109">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(6)' id='sh_6' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_6' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We show how to find a decomposition of the edge set of the complete graph into regular factors where the degree and edge-connectivity of each factor is prescribed.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Amalgamations of connected <i>k</i>-factorizations.</span><br>
+A.J.W Hilton, M. Johnson, C. Rodger, E.B Wantland.<br>
+J. Comb. Theory (B) 88 (2003), 267-279.<br>
+<a href="research/papers/amalg1.ps">ps</a> 
+&nbsp<a href="http://dx.doi.org/10.1016/S0095-8956(03)00030-3">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(5)' id='sh_5' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_5' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>In this paper, necessary and sufficient conditions are found for a graph with exactly one amalgamated vertex to be the amalgamation of a \(k\)-factorization of \(K_{kn+1}\) in which each \(k\)-factor is connected. From this result, necessary and sufficient conditions for a given edge-coloured \(K_t\) to be embedded in a connected \(k\)-factorization of \(K_{kn+1}\) are deduced.</p></div> 
+<br></li>
+
+
+
+
+<li> <span class="papertitle">Defining sets for Latin squares given that they are based on groups. </span><br>
+D. Bedford, M. Johnson, M. Ollis.<br>
+European J. of Combinatorics 24 (2003), 129-135.<br>
+<a href="research/papers/bedfordollisjohnson.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/S0195-6698(02)00115-4">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(0)' id='sh_0' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_0' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We investigate defining sets for Latin squares where we are given that the Latin square is the Cayley table for some group. Our main result is that the proportion of entries in a smallest defining set approaches zero as the order of the group increases without bound.
+</p></div> 
+<br>
+
+<li> <span class="papertitle">Some results on the Oberwolfach problem. </span><br> 
+A.J.W Hilton, M. Johnson.<br>
+J. London Math. Soc. 64 (2001), 513-522.<br>
+<a href="research/papers/oberwolfach.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1112/S0024610701002666">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(3)' id='sh_3' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_3' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The well-known Oberwolfach problem is to show that it is possible to 2-factorize \(K_n\) (\(n\) odd) or \(K_n\) less a 1-factor (\(n\) even) into predetermined 2-factors, all isomorphic to each other; a few exceptional cases where it is not possible are known. A completely new technique is introduced that enables it to be shown that there is a solution when each 2-factor consists of \(k\) \(r\)-cycles and one \((n-kr)\)-cycle for all \(n \geq 6kr-1\). Solutions are also given (with three exceptions) for all possible values of \(n\) when there is one \(r\)-cycle, \(3 \leq r \leq 9\), and one \((n-r)\)-cycle, or when there are two \(r\)-cycles, \(3 \leq r \leq 4\), and one \((n-2r)\)-cycle.</p></div> 
+<br></li>
+
+<li> <span class="papertitle">Weak critical sets in cyclic Latin squares.</span><br> 
+D. Bedford, M. Johnson.<br>
+ Australas. J. Combin.  23  (2001), 301-316.<br> 
+<a href="research/papers/Weakcrit.pdf">pdf</a>
+&nbsp<a href='javascript:abstract_show_hide(2)' id='sh_2' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_2' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>We identify a weak critical set in each cyclic Latin square of order greater than 5. This provides the first example of an infinite family of weak critical sets. The proof uses several constructions for Latin interchanges which are generalisations of those introduced by Donovan and Cooper.</p></div>
+<br></li>
+
+<li> <span class="papertitle">Weak uniquely completable sets for finite groups.</span> <br> 
+D. Bedford, M. Johnson.<br>
+Bull. London Math. Soc.  32  (2000),   155-162. <br> 
+<a href="http://dx.doi.org/10.1112/S0024609399006761">doi</a> 
+&nbsp<a href='javascript:abstract_show_hide(1)' id='sh_1' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_1' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>Keedwell has shown that none of the groups of order less than 5 has a weak uniquely completable set. We prove that a weak uniquely completable set exists in a latin square based on a finite group if and only if the group is of order greater than 5.</p></div>
+
+</li>
+
+</ul>
+
+
+<h1>Conference Papers</h1>
+<ul>
+<li> <span class="papertitle">Computing weighted subset transversals in <i>H</i>-free graphs. </span><br>N. Brettell, M. Johnson, D. Paulusma.<br>
+<a href="https://arxiv.org/2007.14514">arxiv</a> 
+&nbsp<!--a href="http://dx.doi.org/10.4230/LIPIcs.ISAAC.2017.16">doi</a-->
+<br><br>
+
+
+
+<li> <span class="papertitle">Computing subset transversals in <i>H</i>-free graphs. </span><br>N. Brettell, M. Johnson, G. Paesani, D. Paulusma.<br>
+WG 2020<br>
+<a href="https://arxiv.org/abs/2005.13938">arxiv</a> 
+&nbsp<!--a href="http://dx.doi.org/10.4230/LIPIcs.ISAAC.2017.16">doi</a-->
+<br><br>
+
+<li> <span class="papertitle">Steiner trees for hereditary graph classes. </span><br>H. Bodlaender, N. Brettell, M. Johnson, G. Paesani, D. Paulusma, E. J. van Leeuwen.<br>
+LATIN 2020<br>
+<a href="https://arxiv.org/abs/2004.07492">arxiv</a> 
+&nbsp<!--a href="http://dx.doi.org/10.4230/LIPIcs.ISAAC.2017.16">doi</a-->
+<br><br>
+
+<li> <span class="papertitle">Graph isomorphism for <i>(H<sub>1</sub>,H<sub>2</sub>)</i>-free graphs: an almost complete dichotomy. </span><br>
+M. Bonamy, K.K. Dabrowski, M. Johnson, D. Paulusma.<br>
+Proceedings of WADS 2019. Lecture Notes in Computer Science 11646, 181-195
+<br>
+<a href="http://arxiv.org/abs/1811.12252">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-030-24766-9_14">doi</a>
+<br><br>
+
+
+<li> <span class="papertitle">Independent transversals versus transversals. </span><br>
+K.K. Dabrowski, M. Johnson, G. Paesani, D. Paulusma, V. Zamaraev.<br>
+Proceedings of EuroComb 2019. Acta Mathematica Universitatis Comenianae 88, 577-583.<br>
+<a href="http://www.iam.fmph.uniba.sk/amuc/ojs/index.php/amuc/article/view/1289/697">link</a>
+<br><br>
+
+<li> <span class="papertitle">On cycle transversals and their connected variants in the absence of a small linear forest. </span><br>
+C. Feghali, M. Johnson, G. Paesani and D. Paulusma.<br>
+Proceedings of FCT 2019. Lecture Notes in Computer Science 11651, 258-273
+ <br><a href="https://doi.org/10.1007/978-3-030-25027-0_18">doi</a>
+<br><br>
+
+
+<li> <span class="papertitle">Finding a small number of colourful components. </span><br>
+L. Bulteau, K. K. Dabrowski, G. Fertin, M. Johnson,  D. Paulusma, S. Vialette.<br>
+Proceedings of CPM 2019.   Leibniz International Proceedings in Informatics 128, 20:1-20:14<br>
+<a href="http://arxiv.org/abs/1808.03561">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.4230/LIPIcs.CPM.2019.20">doi</a>
+<br><br>
+
+
+
+<li> <span class="papertitle">On the price of independence for vertex cover, feedback vertex set and odd cycle transversal. </span><br>
+K.K. Dabrowski, M. Johnson, G. Paesani, D. Paulusma, V. Zamaraev.<br>
+Proceedings of MFCS 2018.   Leibniz International Proceedings in Informatics 83, 70:1-70:14<br>
+ <a href="https://arxiv.org/abs/1910.05254">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.4230/LIPIcs.MFCS.2018.63">doi</a>
+<br><br>
+
+
+<li> <span class="papertitle">Connected vertex cover for <i>(sP<sub>1</sub>+P<sub>5</sub>)</i>-free graphs. </span><br>
+M. Johnson, G. Paesani,  D. Paulusma.<br>
+Proceedings of WG 2018.  Lecture Notes in Computer Science 11159, 279-291.<br>
+ <a href="http://arxiv.org/abs/1712.08362">arxiv</a> 
+&nbsp<a href="https://doi.org/10.1007/978-3-030-00256-5_23">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Independent feedback vertex set for <i>P<sub>5</sub></i>-free graphs. </span><br>
+M. Bonamy, K. K. Dabrowski, C. Feghali, M. Johnson,  D. Paulusma.<br>
+Proceedings of ISAAC 2017.<br>
+ <a href="http://arxiv.org/abs/1707.09402">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.4230/LIPIcs.ISAAC.2017.16">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Recognizing graphs close to bipartite graphs. </span><br>
+M. Bonamy, K. K. Dabrowski, C. Feghali, M. Johnson,  D. Paulusma.<br>
+Proceedings of MFCS 2017.   Leibniz International Proceedings in Informatics 83, 70:1-70:14<br>
+ <a href="http://arxiv.org/abs/1707.09817">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.4230/LIPIcs.MFCS.2017.70">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Clique-width for graph classes closed under complementation. </span><br>
+A. Blanche, K. K. Dabrowski, M. Johnson, V. Lozin,  D. Paulusma, V. Zamaraev.<br>
+Proceedings of MFCS 2017.  Leibniz International Proceedings in Informatics 83, 73:1-73:14<br>
+ <a href="http://arxiv.org/abs/1705.07681">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.4230/LIPIcs.MFCS.2017.73">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Surjective <i>H</i>-Colouring: new hardness results. </span><br>
+P. Golovach, M. Johnson, B. Martin, D. Paulusma, A. Stewart.<br>
+Proceedings of CiE 2017. Lecture Notes in Computer Science 10307, 270-281.<br>
+ <a href="http://arxiv.org/abs/1701.02188">arxiv</a> 
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-319-58741-7_26">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Filling the complexity gaps for colouring planar and bounded degree graphs.</span><br>
+K. K. Dabrowski, F. Dross, M. Johnson, D.Paulusma.<br>
+Proceedings of IWOCA 2015. Lecture Notes in Computer Science 9538, 100-111.<br>
+<a href="http://dx.doi.org/10.1007/978-3-319-29516-9_9">doi</a>
+<br><br>
+
+
+<li> <span class="papertitle">The price of connectivity for cycle transversals.</span><br>
+T. R. Hartinger, M. Johnson, M. Milanic, D.Paulusma.<br>
+Proceedings of MFCS 2015. Lecture Notes in Computer Science  9235, 395-406. <br>
+<a href="research/papers/cycletransversals.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-662-48054-0_33">doi</a>
+<br><br>
+
+<li> <span class="papertitle">A multi-level hypergraph partitioning algorithm using rough set clustering.</span><br>
+F. Lotfifar, M. Johnson.<br>
+Proceedings of Euro-Par 2015. Lecture Notes in Computer Science  9233, 159-170.<br>
+<a href="research/papers/main.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-662-48096-0_13">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(25)' id='sh_25' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_25' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>The hypergraph partitioning problem has many applications in scientific computing and provides a more accurate inter-processor communication model for distributed systems than the equivalent graph problem. In this paper, we propose a sequential multi-level hypergraph partitioning algorithm. The algorithm makes novel use of the technique of rough set clustering in categorising the vertices of the hypergraph. The algorithm treats hyperedges as features of the hypergraph and tries to discard unimportant hyperedges to make better clustering decisions. It also focuses on the trade-off to be made between local vertex matching decisions (which have low cost in terms of the space required and time taken) and global decisions (which can be of better quality but have greater costs). The algorithm is evaluated and compared to state-of-the-art algorithms on a range of benchmarks. The results show that it generates better partition quality.</p></div>
+<br>
+
+<li> <span class="papertitle">Kempe equivalence of colourings of cubic graphs. </span><br>
+C. Feghali, M. Johnson, D. Paulusma.<br>
+Proceedings of EuroComb 2015. Electronic Notes in Discrete Mathematics 49, 243-249.<br>
+ <a href="http://arxiv.org/abs/1503.03430">arxiv</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.endm.2015.06.034">doi</a>
+<br><br>
+
+<li> <span class="papertitle">What graphs are 2-dot product graphs.</span> <br>
+M. Johnson, D. Paulusma, E. J. van Leeuwen.<br>
+Proceedings of EuroComb 2015. Electronic Notes in Discrete Mathematics 49, 705-711.<br>
+<a href="http://dx.doi.org/10.1016/j.endm.2015.06.095">doi</a>
+<br><br>
+
+
+
+<li> <span class="papertitle">Smart grid-aware scheduling in data centres.</span><br>
+M. M&auml;sker, L. Nagel, F. Lotfifar, M. Johnson, A. Brinkmann.<br>
+Proceedings of SustainIT 2015, IEEE, 1-9.<br>
+<a href="research/papers/smart.pdf">pdf</a>  
+&nbsp<a href="http://dx.doi.org/10.1109/SustainIT.2015.7101362">doi</a>
+&nbsp<a href='javascript:abstract_show_hide(22)' id='sh_22' class='style9'>abstract</a><br>
+<div class='abstract' id='abs_22' style="display:none; background-color: #CFDAD1; padding:0px 5px 0px 5px; width:90%"><p>In several countries the expansion and establishment of renewable energies result in widely scattered and often weather-dependent energy production, decoupled from energy demand. Large, fossil-fuelled power plants are gradually replaced by many small power stations that transform wind, solar and water power into electrical power. This leads to changes in the historically evolved power grid that favours top-down energy distribution from a backbone of large power plants to widespread consumers. Now, with the increase of energy production in lower layers of the grid, there is also a bottom-up flow of the grid infrastructure compromising its stability. In order to locally adapt the energy demand to the production, some countries have started to establish Smart Grids to incentivise customers to consume energy when it is generated.
+<p>This paper investigates how data centres can benefit from variable energy prices in Smart Grids. In view of their low average utilisation, data centre providers can schedule the workload dependent on the energy price. We consider a scenario for a data centre in Paderborn, Germany, hosting a large share of interruptible and migratable computing jobs. We suggest and compare two scheduling strategies for minimising energy costs. The first one merely uses current values from the Smart Meter to place the jobs, while the other one also estimates the future energy price in the grid based on weather forecasts. In spite of the complexity of the prediction problem and the inaccuracy of the weather data, both strategies perform well and have a strong positive effect on the utilisation of renewable energy and on the reduction of energy costs. Our experiments and cost analysis show that our simple-to-apply low-cost strategies reach utilisations and savings close to the optimum.</p></div>
+<br>
+
+<li> <span class="papertitle">Finding shortest paths between graph colourings.</span><br>
+M. Johnson, D. Kratsch, S. Kratsch, V. Patel, D. Paulusma.<br>
+Proceedings of IPEC 2014. Lecture Notes in Computer Science  8894, 221-233. <br>
+ <a href="http://arxiv.org/abs/1403.6347">arxiv</a>
+&nbsp; <a href="http://dx.doi.org/10.1007/978-3-319-13524-3_19">doi</a>
+<br><br>
+
+<li> <span class="papertitle">A reconfigurations analogue of Brooks' Theorem.</span><br> 
+C. Feghali, M. Johnson, D. Paulusma. <br>
+Proceedings of MFCS 2014. Lecture Notes in Computer Science  8635, 287-298. <br>
+<a href="http://dx.doi.org/10.1007/978-3-662-44465-8_25">doi</a>
+<br><br>
+      
+<li> <span class="papertitle">Knocking out <i>P<sub>k</sub></i>-free graphs.</span><br> 
+M. Johnson, D. Paulusma, A. Stewart.<br>
+Proceedings of MFCS 2014. Lecture Notes in Computer Science 8635, 396-407. <br>
+<a href="http://dx.doi.org/10.1007/978-3-662-44465-8_34">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Narrowing the complexity gap for colouring <i>(C<sub>s</sub>, P<sub>t</sub>)</i>-free graphs.</span><br>
+S. Huang, M. Johnson, D. Paulusma.<br>
+Proceedings of AAIM 2014. Lecture Notes in Computer Science 8546, 162-173. <br>
+<a href="http://dx.doi.org/10.1007/978-3-319-07956-1_15">doi</a>
+<br><br>
+
+<li> <span class="papertitle">Algorithms to measure diversity and clustering in social networks through dot product graphs.</span><br>
+M. Johnson, D. Paulusma, E. J. van Leeuwen.<br>
+Proceedings of ISAAC 2013. Lecture Notes in Computer Science 8283, 130-140.<br>
+<a href="http://community.dur.ac.uk/daniel.paulusma/Papers/Submitted/dotproducts.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-642-45030-3_13">doi</a>
+<br><br>
+</li>
+
+
+
+<li> <span class="papertitle">On the diameter of reconfiguration graphs for vertex colourings.</span><br>
+M. Bonamy, M. Johnson, I.M. Lignos, V. Patel, D. Paulusma.<br>
+Proceedings of EuroComb 2011. Electronic Notes in Discrete Mathematics 38, 161-166.<br>
+<a href="research/papers/pinching.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1016/j.endm.2011.09.028">doi</a>
+<br><br>
+</li>
+
+<li> <span class="papertitle">Obtaining online ecological colourings by generalizing first-fit.</span><br>
+M. Johnson, V. Patel, D. Paulusma, T. Trunck. <br>
+Proceedings of CSR 2010. Lecture Notes in Computer Science 6072, 240-251.<br>
+<a href=http://dro.dur.ac.uk/7416/1/7416.pdf?DDD10+dcs0dp">pdf</a>&nbsp<a href="http://dx.doi.org/10.1007/978-3-642-13182-0_22">doi</a>
+<br><br>
+</li>
+
+
+<li> <span class="papertitle">Finding paths between 3-colourings. </span> <br>
+L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+Proceedings of IWOCA 2008, 182-196.  <br>
+<a href="research/papers/cdam-2007-31.pdf">pdf</a>  
+<br><br>
+</li>
+
+<li> <span class="papertitle">Path factors and parallel knock-out schemes of almost claw-free graphs. </span><br>  
+M. Johnson, D. Paulusma, C. Wood. <br>
+Proceedings of IWOCA 2008, 27-41.<br>
+<a href="research/papers/almostclaw.pdf">pdf</a> 
+<br><br>
+</li>
+
+<li> <span class="papertitle">Upper bounds and algorithms for parallel knock-out numbers. </span><br>
+H.J. Broersma, M. Johnson, D. Paulusma.<br>
+Proceedings of SIROCCO 2007. Lecture Notes in Computer Science 4474, 328-340.<br> 
+<a href="research/papers/knock2.pdf">pdf</a>  
+&nbsp<a href="http://dx.doi.org/10.1007/978-3-540-72951-8_26">doi</a>
+<br><br>
+</li>
+
+<li> <span class="papertitle">Mixing 3-colourings in bipartite graphs.  </span><br>
+L. Cereceda, J. van den Heuvel, M. Johnson.<br>
+Proceedings of WG 2007. Lecture Notes in Computer Science 4769, 166-177.<br>  
+<a href="http://www.cdam.lse.ac.uk/Reports/Files/cdam-2007-06.pdf">pdf</a> 
+&nbsp<A HREF="http://dx.doi.org/10.1007/978-3-540-74839-7_17">doi</A>
+<br><br>
+</li>
+
+
+<li> <span class="papertitle">The computational complexity of the parallel knock-out problem.</span><br>
+H.J. Broersma, M. Johnson D. Paulusma, I.A. Stewart.<br>
+Proceedings of LATIN 2006. 
+Lecture Notes in Computer Science 3887, 250-261.<br>
+<a href="research/papers/knock.pdf">pdf</a>
+&nbsp<a href="http://dx.doi.org/10.1007/11682462_26">doi</a>
+<br><br>
+</li>
+
+
+
+
+<li> <span class="papertitle">The External Network Problem.  </span><br>
+J. van den Heuvel, M. Johnson.<br>
+Proceedings of CAAN 2004. Lecture Notes in Computer Science 3405, 114-126.<br>  
+<a href="research/papers/cdam-2004-15.pdf">pdf</a>
+&nbsp<A HREF="http://dx.doi.org/10.1007/11527954_11">doi</A>
+<br>
+</li>
+
+</ul>
+
+
+<h1>Edited Volumes</h1>
+
+<ul>
+
+<li> <span class="papertitle">Selected papers from the 4th Algorithms and Complexity in Durham Workshop, ACiD 2010. </span><br>  
+I.A. Stewart, D. Paulusma, M. Johnson. <br>
+J. Discrete Algorithms 12 (2012) <br>
+<a href="http://dx.doi.org/10.1016/j.jda.2011.08.007">doi</a> <br><br>
+</li>
+
+
+<li>
+ <span class="papertitle">Selected papers from the 3rd Algorithms and Complexity in Durham Workshop, ACiD 2007.</span><br>
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+J. Discrete Algorithms 8 (2010).<br>
+<a href="http://dx.doi.org/10.1016/j.jda.2009.07.003">doi</a>
+<br><br>
+</li>
+
+<li>
+ <span class="papertitle">Selected papers from the 2nd Algorithms and Complexity in Durham Workshop, ACiD 2006. </span><br> 
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+J. Discrete Algorithms  7  (2009).<br>
+<a href="http://dx.doi.org/10.1016/j.jda.2008.09.002">doi</a>
+<br><br>
+</li>
+
+<li>
+ <span class="papertitle">Selected papers from the 1st Algorithms and Complexity in Durham Workshop, ACiD 2005.</span><br>
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+J. Discrete Algorithms  6  (2008).<br>
+<a href="http://dx.doi.org/10.1016/j.jda.2008.07.005">doi</a>
+<br><br>
+</li>
+
+<li>
+ <span class="papertitle">Algorithms and Complexity in Durham 2007, Proceedings of the Third ACiD Workshop.</span><br>
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+Texts in Algorithmics 9, College Publications, London, 2007.
+<br><br>
+</li>
+
+<li>
+ <span class="papertitle">Algorithms and Complexity in Durham 2006, Proceedings of the Second ACiD Workshop.</span><br>
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+Texts in Algorithmics 7, College Publications, London, 2006.
+<br><br>
+</li>
+
+<li>
+ <span class="papertitle">Algorithms and Complexity in Durham 2005, Proceedings of the First ACiD Workshop.</span><br>
+H.J Broersma, S.S Dantchev, M. Johnson, S. Szeider. <br>
+Texts in Algorithmics 4, College Publications, London, 2005.
+</li>
+</ul>
+
+
+<hr>
+<p><font size="-1">Last change: 28 June 2021
+<br>
+</font>
+
+             </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
