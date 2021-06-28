@@ -100,7 +100,10 @@ ol li
 
 #header
 { background: #323534;
-  height: 177px;}
+  height: 177px;
+  position: sticky;
+  top: 0;}
+
   
 #banner
 {  background: transparent url(banner.jpg) no-repeat;
