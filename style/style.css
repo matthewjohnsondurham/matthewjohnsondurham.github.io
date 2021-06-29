@@ -15,7 +15,7 @@ body
 
 p
 { padding: 0 0 20px 0;
-  line-height: 1.7em;}
+  line-height: 1.7em;} 
 
 img
 { border: 0;}
@@ -103,7 +103,7 @@ ol li
 
 #header
 { background: #323534;
-  height: 177px;
+  height: 157px;
   position: sticky;
   top: 0;}
 
@@ -118,7 +118,7 @@ ol li
 #logo
 { width: 880px;
   position: relative;
-  height: 140px;
+  height: 120px;
   background: transparent;}
 
 #logo #logo_text 
